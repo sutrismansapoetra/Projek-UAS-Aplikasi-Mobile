@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title=" PEMINJAMAN"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Peminjam"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_height="match_parent"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ETNim"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="NIM"
+                app:met_floatingLabel="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_height="match_parent"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ETnama"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                app:met_floatingLabel="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_height="match_parent"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ETAtanggal_peminjaman"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Pinjam"
+                app:met_floatingLabel="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_height="match_parent"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ETHtanggal_pengembalian"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Kembali"
+                app:met_floatingLabel="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_height="match_parent"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ETJudulBuku"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Judul Buku"
+                app:met_floatingLabel="normal"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/BTNSubmit"
+            android:layout_marginTop="20dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#8C0707"
+            android:text="submit"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

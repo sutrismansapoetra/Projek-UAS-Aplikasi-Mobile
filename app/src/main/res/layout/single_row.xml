@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#EFEEEB"
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/Text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is Header Text"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_below="@id/img1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/Text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is Description Text"
+            android:textColor="#373434"
+            android:textSize="10sp"
+            android:layout_below="@id/Text1"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

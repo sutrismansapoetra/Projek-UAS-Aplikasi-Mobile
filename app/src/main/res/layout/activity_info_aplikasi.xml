@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfiks"
+    tools:context=".info_aplikasi">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="303dp"
+            android:layout_height="230dp"
+            android:src="@drawable/buku" />
+
+        <TextView
+            android:layout_width="261dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="20dp"
+            android:text="Aplikasi ini adalah aplikasi digunakan pada perpustakaan dimana fungsinya untuk peminjaman buku."
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="261dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:text="42520044 SRI WAHYUNI PUTRI"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="261dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:text="42520045 SUTRISMAN SAPOETRA"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15dp" />
+
+
+
+        <Button
+            android:id="@+id/kembaliD"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#DCB74B"
+            android:text="Dashboard" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="388dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="About PERPUSTAKAAN"
+        android:textAlignment="center"
+        android:textColor="@color/startblue"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

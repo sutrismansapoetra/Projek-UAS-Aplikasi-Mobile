@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Perpustakaan</string>
+    <string name="title_activity_peminjaman">peminjaman</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="title1">Welcome to the App!</string>
+    <string name="title2">You just Downloaded?</string>
+    <string name="title3">Create your Account!</string>
+    <string name="title4">Happy using the app!</string>
+    <string name="description1">Thanks for downloading on boarding app. This application will make it easier for you to borrow books.</string>
+    <string name="description2">Just getting started? Lets take a look at some of the great features of this app. </string>
+    <string name="description3">Log in to your account or register if you dont have an account yet.</string>
+    <string name="description4">This application will save your time.</string>
+    <string name="title_activity_peminjaman_buku">Peminjaman_buku</string>
+</resources>
